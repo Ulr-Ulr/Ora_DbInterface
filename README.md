@@ -1,4 +1,8 @@
 ########20210223
+참조문헌
+https://github.com/miniplugin/Dbinterface_ora_ok
+9과목의 과제물 서식 구글프레젠테이션 문서
+https://docs.google.com/presentation/d/1KA4V8sBfRo_3BUpNaE41ztXGTpnFk4MV/edit#slide=id.p2
 오라클 member테이블 생성 + 더미 데이터 입력
 Ora_DbInterface
 스프링MVC프로젝트 생성
