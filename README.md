@@ -10,3 +10,6 @@ pom.xml.로 자바, 스프링, 마이바티스 업데이트
 메이븐 업데이트
 프로젝트 Facets부분 web_module = 3.1 변경
 web.xml의 웹모듈버전 2.5 ->3.1로 변경
+log4jdbc.spylogdelegator.name=net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+log4jdbc.log4j2.properties 쿼리를 콘솔에 디버그하기위해 필수
+mappers폴더생성후 sampleMapper
