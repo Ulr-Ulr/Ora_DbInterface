@@ -26,7 +26,7 @@ public class MemberServiceImpl implements MemberService{
 	}
 
 	@Override
-	public MemberVO memberview(String userid) throws Exception {
+	public MemberVO memberView(String userid) throws Exception {
 		// DAO호출
 		return memberDAO.memberView(userid);
 	}
