@@ -2,6 +2,7 @@ package com.human.edu;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.Date;
 import java.util.List;
 
 import javax.inject.Inject;
@@ -40,6 +41,9 @@ public class TestMemberService {
 		memberVO.setUsername("수정사용자");
 		memberVO.setUserpw("4321");
 		memberVO.setEmail("a2@q1.a1");
+		Date nowDate = new Date();
+		memberVO.setRegdate(nowDate);
+		memberVO.setUpdatedate(nowDate);
 		memberService.memberUpdate(memberVO);
 	}
 	@Test
